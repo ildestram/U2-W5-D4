@@ -8,10 +8,28 @@
     <link rel="stylesheet" href="./css/stylesex.css">
 </head>
 <body>
+    <div id="container">
+        <h1>Esami sostenuti</h1>
+        <div id="commands">
+            <button onclick="bold()">Grassetto</button>
+            <button onclick="italics()">Corsivo</button>
+            <hr>
+            <input id="input-text" onkeydown="getInputText(event)" type="text" placeholder="Scrivi gli esami che ti mancano da sostenere">
+        </div>
+        <br>
+        <div id="items">
+            <div class="item" onclick="selectItem(event)">Diritto costituzionale</div>
+            <div class="item" onclick="selectItem(event)">Diritto commerciale</div>
+            <div class="item bold" onclick="selectItem(event)">Diritto processuale civile</div>
+            <div class="item" onclick="selectItem(event)">Diritto processuale penale</div>
+            <div class="item" onclick="selectItem(event)">Diritto amministrativo</div>
+            <div class="item italics" onclick="selectItem(event)">Diritto canonico</div>
+        </div>
+    </div>
 
 
 
-    <script src="./js/script.js"></script>
+    <script src="./js/scriptex.js"></script>
     
 </body>
 </html>
