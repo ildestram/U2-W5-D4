@@ -31,3 +31,14 @@ function getInputText(eventObject) {
     }
 
 }
+
+// let buttonEnter = document.getElementsByClassName('btn')
+// utente scrive l'esame e clicca invio
+function enter() {
+    let buttonEnter = document.getElementsByClassName('btn');
+
+    for (let item of buttonEnter) {
+        item.classList.add('btn');
+    }
+
+}

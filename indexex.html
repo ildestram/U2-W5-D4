@@ -11,10 +11,11 @@
     <div id="container">
         <h1>Esami sostenuti</h1>
         <div id="commands">
-            <button onclick="bold()">Esami sostenuti e passati</button>
+            <button onclick="bold()">Esami sostenuti e superati</button>
             <button onclick="italics()">Esami non superati</button>
             <hr>
-            <input id="input-text" onkeydown="getInputText(event)" type="text" placeholder="Scrivi gli esami che ti mancano da sostenere">
+            <input id="input-text" onkeydown="getInputText(event)" type="text" placeholder="Scrivi gli esami che non hai superato">
+            <button class="btn" onclick="enter()">Invio</button>
         </div>
         <br>
         <div id="items">
