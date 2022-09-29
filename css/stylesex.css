@@ -37,6 +37,21 @@ button:hover {
     margin: 10px 0;
 }
 
+.item-b {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+.item-c {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+
+
 #input-text {
     width: 50vh;
     border-radius: 10px;

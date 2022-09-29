@@ -1,7 +1,7 @@
 let items = document.getElementById('items');
 
 function bold() {
-    let itemsSelected = document.getElementsByClassName('item');
+    let itemsSelected = document.getElementsByClassName('item-b');
 
     for(let item of itemsSelected) {
         item.classList.add('bold');
@@ -9,7 +9,7 @@ function bold() {
 }
 
 function italics() {
-    let itemsSelected = document.getElementsByClassName('item');
+    let itemsSelected = document.getElementsByClassName('item-c');
 
     for(let item of itemsSelected) {
         item.classList.add('italics');

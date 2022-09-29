@@ -11,19 +11,19 @@
     <div id="container">
         <h1>Esami sostenuti</h1>
         <div id="commands">
-            <button onclick="bold()">Grassetto</button>
-            <button onclick="italics()">Corsivo</button>
+            <button onclick="bold()">Esami sostenuti e passati</button>
+            <button onclick="italics()">Esami non superati</button>
             <hr>
             <input id="input-text" onkeydown="getInputText(event)" type="text" placeholder="Scrivi gli esami che ti mancano da sostenere">
         </div>
         <br>
         <div id="items">
-            <div class="item" onclick="selectItem(event)">Diritto costituzionale</div>
-            <div class="item" onclick="selectItem(event)">Diritto commerciale</div>
+            <div class="item-b" onclick="selectItem(event)">Diritto costituzionale</div>
+            <div class="item-b" onclick="selectItem(event)">Diritto commerciale</div>
             <div class="item bold" onclick="selectItem(event)">Diritto processuale civile</div>
-            <div class="item" onclick="selectItem(event)">Diritto processuale penale</div>
-            <div class="item" onclick="selectItem(event)">Diritto amministrativo</div>
-            <div class="item italics" onclick="selectItem(event)">Diritto canonico</div>
+            <div class="item-c" onclick="selectItem(event)">Diritto processuale penale</div>
+            <div class="item-c" onclick="selectItem(event)">Diritto amministrativo</div>
+            <div class="item-c italics" onclick="selectItem(event)">Diritto canonico</div>
         </div>
     </div>
 
