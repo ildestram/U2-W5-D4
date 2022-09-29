@@ -42,13 +42,15 @@ function getInputText(eventObject) {
 //     }
 
 // }
-let buttonEnter = document.getElementsByClassName('btn');
-let buttonInput = document.getElementById('input-text');
-function enter() {
-    if(buttonInput.value == ''){
-        buttonEnter.eventObject('click');
-    }
-}
+// let buttonEnter = document.getElementsByClassName('btn');
+// let buttonInput = document.getElementById('input-text');
+// function enter() {
+//     if(buttonInput.value == ''){
+        
+//     }
+// }
+
+// event.key ed event.click
 
 
 
